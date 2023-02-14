@@ -16,7 +16,7 @@ def run_game():
     ship = Ship(screen)
 
 #Choose main color background.
-    bg_color = (230, 230, 230)
+    bg_color = (0, 0, 255)
 
 #Start tne main range of game.
     while True:
