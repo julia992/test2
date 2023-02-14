@@ -1,9 +1,8 @@
-import sys
-
 import pygame
 
 from settings import Settings
 from ship import Ship
+import game_functions as gf
 
 def run_game():
 #Initilizian game and create object of display.
@@ -21,6 +20,7 @@ def run_game():
 
 #Start tne main range of game.
     while True:
+        gf.check_events()
     
 #Monitor display and mouse events.
         for event in pygame.event.get():
